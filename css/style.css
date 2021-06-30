@@ -611,11 +611,14 @@ footer .nav-link .fa-whatsapp {
 /*  start style page category */
 .category {
   padding: 100px 0;
+   /* background: #edf3f37a; */
 }
 
 .job-entry-horzontal {
-  position: relative;
-  margin-bottom: 30px;
+    position: relative;
+    margin-bottom: 15px;
+    background: #fff;
+    margin-top: 15px;
 }
 
 .ribbon {
@@ -710,6 +713,13 @@ footer .nav-link .fa-whatsapp {
   -ms-transition: .1s all ease;
   -o-transition: .1s all ease;
 }
+.cat-company .job-entry-horzontal a {
+  border: 0;
+}
+.section-border {
+  margin: 15px;
+  border: 1px solid #e6e6e6;
+}
 
 .job-entry-horzontal a .image {
   width: 200px;
@@ -774,6 +784,7 @@ footer .nav-link .fa-whatsapp {
 
 .cat-company {
   padding: 100px 0;
+      background: #edf3f37a;
 }
 
 .cat-company .job-meta h6 {
