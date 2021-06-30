@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,8 +29,6 @@
     <!-- Add the new slick-theme.css if you want the default styling -->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 
-    <!--  lib owl-carousel -->
-    <!-- <link rel="stylesheet" href="css/owl.carousel.css" /> -->
     <!--  main style -->
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -49,11 +48,46 @@
     <!-- end preload -->
     <!--  start header -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 logo-sm">
                     <img src="images/logo.png" class="img-fluid img-logo" alt="logo">
-                </a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-md-end">
+                    <form action="" method="post" class="form-search">
+                        <input type="text" placeholder="ابحث عن ...">
+                        <button type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="share-icon">
+                        <ul class="nav flex-row justify-content-between">
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-facebook"></i>
+                                </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-telegram"></i>
+                                </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">
+                                    <i class="fab fa-snapchat"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -66,22 +100,21 @@
                             <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
                         </li>
 
-                        <li class="nav-item ">
-                            <a class="nav-link" href="javascript:void();">
-                                الاقسام
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#company">وظائف الشركات
                             </a>
-                            <ul class="submenu">
-                                <li><a class="" href="#">وظائف الشركات</a></li>
-                                <li><a class="" href="#">وظائف مدنية </a></li>
-
-                                <li><a class="" href="#">وظائف عسكرية</a></li>
-                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">الاخبار</a>
+                            <a class="nav-link " aria-current="page" href="#mdania">وظائف مدنية</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">عنا</a>
+                            <a class="nav-link " aria-current="page" href="#military">وظائف عسكرية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#result">نتائج القبول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#other-news">أخبار أخرى</a>
                         </li>
 
                     </ul>
@@ -91,6 +124,7 @@
         </nav>
     </header>
     <!--  end header -->
+
 
 
     <!--  start category -->
@@ -105,33 +139,33 @@
                 <!-- start item job in category -->
                 <div class="col-lg-8 col-md-12 col-sm-12 col-12 mx-auto">
                     <div class="job-entry-horzontal">
-                  <a href="#">
-                    <span class="text">
-                      <div class="job-meta">
-                        <h2>
-                        البنك السعودي الفرنسي يعلن عن وظيفة شاغرة لحملة الثانوية العامة                   
-                        </h2>
-                        <span class="mr-2">
-                        <i class="far fa-building mx-2"></i>
-                         البنك السعودي الفرنسي
-                        </span>
-                        <span class="mx-2">
-                            <i class="far fa-clock"></i>
-                            الاربعاء 29 يونيو 2021 
-                        </span> 
-                        <span class="mx-2">
-                            <i class="far fa-folder"></i>
-                           قسم وظائف مدنية
-                        </span> 
-                      </div>
-                    </span>
-                  </a>
-                </div>
+                        <a href="#">
+                            <span class="text">
+                                <div class="job-meta">
+                                    <h2>
+                                        البنك السعودي الفرنسي يعلن عن وظيفة شاغرة لحملة الثانوية العامة
+                                    </h2>
+                                    <span class="mr-2">
+                                        <i class="far fa-building mx-2"></i>
+                                        البنك السعودي الفرنسي
+                                    </span>
+                                    <span class="mx-2">
+                                        <i class="far fa-clock"></i>
+                                        الاربعاء 29 يونيو 2021
+                                    </span>
+                                    <span class="mx-2">
+                                        <i class="far fa-folder"></i>
+                                        قسم وظائف مدنية
+                                    </span>
+                                </div>
+                            </span>
+                        </a>
+                    </div>
                 </div>
                 <!-- end  item job in category -->
-               
+
             </div>
-           
+
         </div>
     </section>
     <!--  end category -->
