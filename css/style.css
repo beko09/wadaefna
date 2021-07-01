@@ -945,7 +945,7 @@ border: 0;
 
 /*  end preload */
 /*  start media query */
-@media (max-width:767px) {
+@media (max-width:991px) {
 
   /* navbar */
 
@@ -1088,7 +1088,7 @@ border: 0;
   }
 
   /*  end page category */
-
+ 
 .Latest-Jobs .job-img {
   background: #fff;
 }
@@ -1096,8 +1096,6 @@ border: 0;
 .job-img {
   justify-content: center;
 }
-
-
 
 
 }
