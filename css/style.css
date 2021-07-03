@@ -44,7 +44,15 @@ li {
 .navbar {
   margin-top: 20px;
 }
-
+.toggler {
+ background: transparent;
+ border: 0;
+ display: none;
+}
+.toggler i {
+  font-size: 1.4rem;
+  color: var(--main-color);
+}
 .navbar .btn-menu {
   background: transparent;
   border: 0;
@@ -395,6 +403,7 @@ footer .nav-link .fa-whatsapp {
   font-family: "Tajawal-Medium";
 }
 
+
 .detail-jobs .company p {
   color: var(--second-color);
 }
@@ -408,24 +417,49 @@ footer .nav-link .fa-whatsapp {
   padding: 1rem;
 }
 
-
+.detail-jobs .content {
+   font-family: "Tajawal-Medium";
+}
+.detail-jobs .content p {
+   font-family: "Tajawal-Medium";
+  }
+.social-group  {
+  margin-top: 40px;
+}
+.social-group .whatsapp-group {
+   font-family: "Tajawal-Medium";
+  background: #25D366;
+  color: #fff;
+  padding: 5px;
+}
+.social-group .telegram-group {
+   font-family: "Tajawal-Medium";
+  background: #1877F2;
+  color: #fff;
+  padding: 5px;
+}
+.social-group a span {
+  margin: 0 5px;
+}
 .social-share-container a {
   text-decoration: none;
 }
 
 .social-share-container i {
-  opacity: 0;
-  font-size: 28px;
-  color: #1F1E1E;
-  will-change: transform;
-  -webkit-transform: scale(.1);
-      -ms-transform: scale(.1);
+          opacity: 0;
+          font-size: 28px;
+          color: #1F1E1E;
+          will-change: transform;
+          -webkit-transform: scale(.1);
+          -ms-transform: scale(.1);
           transform: scale(.1);
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  -o-transition: all .3s ease;
+          -webkit-transition: all .3s ease;
+          transition: all .3s ease;
+          -moz-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          -moz-transform: scale(.1);
+          -o-transform: scale(.1);
 }
 
 .social-share-container i.fa-facebook {
@@ -702,6 +736,8 @@ border: 0;
   background-position: center center;
   display: table-cell;
   vertical-align: middle;
+  border-style: dotted;
+  border-color: #a5a5a5;
 }
 
 .job-entry-horzontal a .text {
@@ -948,7 +984,9 @@ border: 0;
 @media (max-width:991px) {
 
   /* navbar */
-
+.toggler {
+  display: block;
+}
 
   .navbar-toggler:focus {
     -webkit-box-shadow: none;
@@ -1095,6 +1133,9 @@ border: 0;
 
 .job-img {
   justify-content: center;
+}
+.social-group a {
+  margin-bottom: 20px;
 }
 
 

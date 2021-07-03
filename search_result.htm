@@ -50,10 +50,15 @@
     <header>
         <div class="container">
             <div class="row mt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 logo-sm">
+                <div class="col-lg-6 col-md-6 col-sm-12 logo-sm d-flex justify-content-between">
                    <a href="index.html">
-                        <img src="images/logo.png" class="img-fluid img-logo" alt="logo">
+                        <img src="images/logo.png" class="img-fluid img-logo d-block" alt="logo">
                    </a>
+                    <button class="toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column align-items-md-end">
                     <div class="share-icon">
@@ -90,12 +95,6 @@
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav menu-nav mx-auto mb-2 mb-lg-0">
@@ -134,7 +133,6 @@
         </nav>
     </header>
     <!--  end header -->
-
 
     <!--  start category -->
     <section class="category">
